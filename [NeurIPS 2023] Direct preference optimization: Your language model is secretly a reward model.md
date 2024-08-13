@@ -1,6 +1,6 @@
 # [NeurIPS 2023] Direct preference optimization: Your language model is secretly a reward model
 
-###핵심
+### 핵심
 - On-Policy Preference Data
   - On-Policy Data는 SFT로 생성한 데이터
   - DPO는 SFT Model의 분포를 Preference에 맞추는 Alignment Learning
