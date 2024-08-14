@@ -23,24 +23,26 @@
     - BERT는 input 정보에 absolute position 정보를 넣는 방식임.
     </aside>
 
-    # Method
+    # Architecture
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/d3d50318-705b-4369-85f8-2f0d0d9603f7/9974d45b-893c-405f-838b-2c3fa59de222/Untitled.png)
+<img width="998" alt="deberta_architecture" src="https://github.com/user-attachments/assets/2e445ea9-028e-439e-b8df-79954811f196">
 
 # Experiment
 
 - base model
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/d3d50318-705b-4369-85f8-2f0d0d9603f7/beb7432f-a7ad-41cc-b160-fb2863d2b252/Untitled.png)
+    ![deberta_exp_result_base](https://github.com/user-attachments/assets/cd99aaa1-a616-40cd-bf10-8eca93aecb9b)
     
 - large model
     - GLUE에서 다른 large model에 비해 좋은 성능 보임
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/d3d50318-705b-4369-85f8-2f0d0d9603f7/40e41f65-ec28-45ed-b32a-9fbc09c7ce48/Untitled.png)
+    ![deberta_exp_result_large](https://github.com/user-attachments/assets/f4c0e73d-541c-4e02-93f7-ac0783c63c84)
     
 
 # 사용한 데이터셋
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/d3d50318-705b-4369-85f8-2f0d0d9603f7/ad47ba38-ebce-4cd4-b23b-16f53d615c54/Untitled.png)
+![deberta_training dataset](https://github.com/user-attachments/assets/cf71b8fb-e66c-4109-b37d-0027126fbeda)
 
 # model train parameter
+
+![deberta_training_params](https://github.com/user-attachments/assets/1875c9d6-0a2b-4c2f-8f28-b6f31b1a76eb)
