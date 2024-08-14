@@ -25,7 +25,7 @@
   2. 적은 계산량
   3. fine-tuning이나 hyperparameter tuning 과정에서 LM에서 샘플링 불필요
   4. 간단한 구현 및 훈련
-  5. control sentiment of generation에서 PPO 기반 RL 능가
+  5. control sentiment generation에서 PPO 기반 RL 능가
   6. summarization과 single-turn dialogue에서 응답의 품질 일치 및 개선
 
 # Introduction
