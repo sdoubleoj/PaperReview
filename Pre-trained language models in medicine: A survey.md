@@ -110,7 +110,7 @@
 
 1. GPT (Generative Pre-trained Transformer)
    - Structure: Transformer의 Decoder 기반
-     ![Full_GPT_architecture](https://github.com/user-attachments/assets/ca124ef1-877e-4ecf-81b0-2b9656e27825)
+     ![Full_GPT_architecture](https://github.com/user-attachments/assets/ca124ef1-877e-4ecf-81b0-2b9656e27825){: width="50%" height="50%"}
    - Pre-Training Data: Unlabelled large-scale text corpora
    - Pre-Training Strategy
      - Autoregressive Training으로 모델이 마스킹이나 삭제없이 Unidirection(왼쪽>오른쪽)으로만 텍스트 예측
