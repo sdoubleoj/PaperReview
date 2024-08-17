@@ -110,7 +110,7 @@
 
 1. GPT (Generative Pre-trained Transformer)
    - Structure: Transformer의 Decoder 기반
-     <img src="https://github.com/user-attachments/assets/ca124ef1-877e-4ecf-81b0-2b9656e27825" width="50%" height="50%"/>
+     <img alt="Full_GPT_architecture" src="https://github.com/user-attachments/assets/ca124ef1-877e-4ecf-81b0-2b9656e27825" width="50%" height="50%"/>
    - Pre-Training Data: Unlabelled large-scale text corpora
    - Pre-Training Strategy
      - Autoregressive Training으로 모델이 마스킹이나 삭제없이 Unidirection(왼쪽>오른쪽)으로만 텍스트 예측
@@ -118,7 +118,7 @@
 
 2. BERT (Bidirectional Encoder Representations from Transformers)
    - Structure: Transformer의 Encoder 기반
-     ![BERT-size-and-architecture](https://github.com/user-attachments/assets/5d0c67aa-781b-4273-b56a-b7b27304752c)
+     <img alt="BERT-size-and-architecture" src="https://github.com/user-attachments/assets/5d0c67aa-781b-4273-b56a-b7b27304752c" width="50%" height="50%"/>
    - Pre-Training Data: BooksCorpus (800M), English Wikipedia (2500M)
    - Pre-Training Strategy: MLM, NSP
      - Bidirectional Encoding을 사용해 Masked Language Modeling(MLM)을 사용해 단어의 왼쪽 오른쪽 문맥을 표현
@@ -139,4 +139,4 @@
 - stepwise unfreezing
      
 # PLMs in medical fields
-<img width="1045" alt="Usage of various PLMs in various medical NLP tasks" src="https://github.com/user-attachments/assets/9ca8c38b-4db7-404d-9305-b537c1a18d32">
+<img alt="Usage of various PLMs in various medical NLP tasks" src="https://github.com/user-attachments/assets/9ca8c38b-4db7-404d-9305-b537c1a18d32" width="50%" height="50%"/>
