@@ -4,7 +4,7 @@
 -   대규모 Medical QA 데이터셋
 -   기존의 OpenQA 시스템이 잘 다루지 못하는 복잡한 의료 Question 포함
 
-<img alt="Examples of MedQA" src="https://github.com/user-attachments/assets/30ff506f-a4cb-4de1-99c8-c6931858baf1" width="50%" height="50%"/>
+<img alt="Examples of MedQA" src="https://github.com/user-attachments/assets/30ff506f-a4cb-4de1-99c8-c6931858baf1"/>
 
 ## 연구 목적
 
