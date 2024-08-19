@@ -109,7 +109,9 @@
     - Transfer Learning 후 Fine Tuning
 
 1. GPT (Generative Pre-trained Transformer)
+   
      <img alt="Full_GPT_architecture" src="https://github.com/user-attachments/assets/ca124ef1-877e-4ecf-81b0-2b9656e27825" width="50%" height="50%"/>
+     
    - Structure: Transformer의 Decoder 기반
    - Pre-Training Data: Unlabelled large-scale text corpora
    - Pre-Training Strategy
@@ -117,7 +119,9 @@
    - Text Generation 특화
 
 2. BERT (Bidirectional Encoder Representations from Transformers)
+
      <img alt="BERT-size-and-architecture" src="https://github.com/user-attachments/assets/5d0c67aa-781b-4273-b56a-b7b27304752c" width="50%" height="50%"/>
+
    - Structure: Transformer의 Encoder 기반
    - Pre-Training Data: BooksCorpus (800M), English Wikipedia (2500M)
    - Pre-Training Strategy: MLM, NSP
@@ -150,7 +154,9 @@
    - personalized medicine by considering the individual characteristics of patients
 
 # PLMs in Medical Fields
+
 <img alt="Usage of various PLMs in various medical NLP tasks" src="https://github.com/user-attachments/assets/9ca8c38b-4db7-404d-9305-b537c1a18d32" width="50%" height="50%"/>
+
 1. BERT: 문맥 표현과 단어 간 의미 관계 포착 능력
 2. RoBERTa: BERT 보다 향상된 문맥 정보 포착 및 Entity 경계 모호성 처리 능력
 3. BioBERT: BERT를 Biomedical corpora로 Transfer Lenarning
@@ -159,7 +165,9 @@
 
 # Question Answering System
 - 현재 QAS 연구를 하고 있으므로, 이 부분만 리뷰
+
 <img alt="PLMs-based model diagram for question answering system in medicine" src="https://github.com/user-attachments/assets/bccc5459-ebde-47b6-9ff9-796ed3255e25" width="50%" height="50%"/>
+
 - 자연어 질문을 이해하고 정확하고 간결한 답변을 제공하도록 설계된 모델
 - Goal: Human Understanding(특정 주제 또는 개념에 대한 지식 수준)과 Comprehension(의미를 파악하고 해석하는 능력)을 모방하여 기존 지식이나 데이터 소스를 기반으로 답변을 생성
 
