@@ -4,6 +4,8 @@
 -   대규모 Medical QA 데이터셋
 -   기존의 OpenQA 시스템이 잘 다루지 못하는 복잡한 의료 Question 포함
 
+<img alt="Examples of MedQA" src="https://github.com/user-attachments/assets/30ff506f-a4cb-4de1-99c8-c6931858baf1" width="50%" height="50%"/>
+
 ## 연구 목적
 
 -   의료 분야의 Question은 일반적인 상식이나 간단한 텍스트 정보 이상의 복잡한 논리적 추론과 깊이 있는 전문 지식 요하기 때문에, 기존의 OpenQA 데이터셋으로는 모델이 의료 질문에 대한 제대로 된 답변을 할 수 없음
