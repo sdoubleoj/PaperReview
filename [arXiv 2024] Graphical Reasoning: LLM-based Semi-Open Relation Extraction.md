@@ -1,0 +1,3 @@
+- Relation Extraction(RE) using LLM
+- **Chain of Thought(CoT)** 와 **Graphical Reasoning(GRE)** 기법 사용
+- GPT-3.5와 같은 Advanced LM의 In-Context Learning(ICL) 능력을 활용, 예제를 통해 단게별 추론 과정을 모델에 학습시켜 관계 추출의 정밀도를 향상
