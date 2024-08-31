@@ -1,4 +1,4 @@
-<img width="518" alt="image" src="https://github.com/user-attachments/assets/830e2c7e-fc1f-42d6-af4a-a629ee17fb81">
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/830e2c7e-fc1f-42d6-af4a-a629ee17fb81">
 
 - PubMed의 약 760,000개의 논문 제목이 질문 형식으로 작성
 - 그 중 약 120,000개의 논문이 구조화된 초록(즉, "서론", "결과" 등으로 나누어진 초록)
