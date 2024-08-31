@@ -1,5 +1,7 @@
 - COVID-19 Synthetic QA System
 
+
+
 # Dataset
   - CORD19와 LitCOVID initiative를 통해 구축된 참고 표준 데이터셋
   - Gold-Standard dataset 데이터셋 (공중 보건 전문가들이 수작업
@@ -29,7 +31,7 @@
   - 문맥을 이해하기 위해 문서와 질문을 함께 입력으로 받아 Self-Attention 메커니즘을 통해 각 단어의 중요도를 계산하고, 그 결과로 얻어진 벡터를 기반으로 질문에 대한 답변을 도출
   - (Self-Attention 수식)
 
-# Experiment Setting
+# Experiment
 - Baseline
   - BERT, XLNET, ALBERT, BART, ELECTRA, Funnel,. Longformer, COBERT, COVID-QA
 - Metric
