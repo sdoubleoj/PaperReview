@@ -38,17 +38,17 @@
         *** Explanation Mention: 모델이 설명에서 Intervention을 중요하게 다루는 정도
         
     
-    ![CEF 메트릭 예시: Intervention 전후 모델 예측과 설명 변화 측정](https://prod-files-secure.s3.us-west-2.amazonaws.com/d3d50318-705b-4369-85f8-2f0d0d9603f7/5e386cb2-b2ed-4a52-af69-f700d42722d8/image.png)
+    ![CEF 메트릭 예시: Intervention 전후 모델 예측과 설명 변화 측정](https://github.com/user-attachments/assets/c97b0dd1-da2f-400e-995f-0364c2702f2b)
     
-      - CEF 메트릭 예시: Intervention 전후 모델 예측과 설명 변화 측정
+      CEF 메트릭 예시: Intervention 전후 모델 예측과 설명 변화 측정
     
     - Intervention: 단어를 삽입해 input query를 변형하는 것
         - 모델의 Intervention 전후 Predictions에 대한 Total Variation Distance (TVD)로 측정
         - TVD를 통해서 해당 Intervention이 모델 예측에 얼마나 영향을 주었는지를 수치화할 수 있음
             
-            ![TVD 값과 Inserted Text 가 모델에 미친 영향의 상관관계](https://prod-files-secure.s3.us-west-2.amazonaws.com/d3d50318-705b-4369-85f8-2f0d0d9603f7/cae04482-a68b-40a4-9d36-e8a614d0430e/image.png)
+            ![TVD 값과 Inserted Text 가 모델에 미친 영향의 상관관계](https://github.com/user-attachments/assets/13ff80ce-a64e-4f4d-a8ac-941304ab52d9)
             
-              - TVD 값과 Inserted Text 가 모델에 미친 영향의 상관관계
+              TVD 값과 Inserted Text 가 모델에 미친 영향의 상관관계
             
     - Mention importance: CT 방법론에서 사용했던 언급 유무 기준의 이진법을 사용
         - 이에 따라 CEF는 점 이분 상관 계수로 측정될 수 있음
@@ -57,8 +57,8 @@
 
 - 본 논문에서는 CEF 메트릭과 CT 방법론을 적용하여, 상관적 반사실 테스트(Correlational Counterfactual Test, CCT)를 제안하고 Llama2 모델을 3개의 대표적인 Classification Benchmark 인 e-SNLI, ComVE, ECQA에 대해서 테스트함
 
-![3가지 벤치마크에서 기존 CT 방법론 및 CCT로 측정한 Faithfulness 성능 비교](https://prod-files-secure.s3.us-west-2.amazonaws.com/d3d50318-705b-4369-85f8-2f0d0d9603f7/03eb3238-4ade-4b87-8a35-1ca6d5993247/image.png)
+![3가지 벤치마크에서 기존 CT 방법론 및 CCT로 측정한 Faithfulness 성능 비교](https://github.com/user-attachments/assets/b8665d3d-c766-43bc-bf08-30a61882e9ae)
 
-3가지 벤치마크에서 기존 CT 방법론 및 CCT로 측정한 Faithfulness 성능 비교
+    3가지 벤치마크에서 기존 CT 방법론 및 CCT로 측정한 Faithfulness 성능 비교
 
 - ECQA는 모델의 설명이 Intervention에 대해 거의 언급하는 경향을 보이지만, 해당 Intervention이 모델의 예측에는 거의 영향을 주지 않는 것을 확인할 수 있음. 즉, 모델에게 중요했던 부분이 무엇이었는지 설명에 전혀 반영되지 않았다고 해석. CCT는 이 부분을 수치화해서 표현할 수 있음을 확인
